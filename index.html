@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+</head>
+<body class="bg-blue h-full">
+    <h1 class="text-center c-white" >DOM manipulation</h1>
+    <div class="p-5 bg-blue-600 rounded mb-12">
+        <div class=" c-white font-700" style="font-size: 24px;">Hi <span id="name" class="font-italic mb-2"></span></div>
+        <div class="c-white " id="text">This is a div. You can manipulate it by using DOM querry selectors and other meothods</div>
+    </div>
+    <input id="nameInput" type="text" placeholder="Enter your Name" class="w-full uppercase h-12"/>
+    <br/>
+    <textarea id="textInput" placeholder="Enter text to manipulate" rows="4" cols="50" class="w-full h-20 uppercase"></textarea>
+    <a href="https://youtube.com" target="_blank" class="no-underline absolute bottom-0 c-white left-half" style="font-size: 32px; left:50%; margin-left: -125px; width: 250px;">Day 1 of 30DaysJs</a>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
